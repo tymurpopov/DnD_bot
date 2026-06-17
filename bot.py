@@ -72,7 +72,7 @@ async def roll_dice(message: Message):
     )
 
 
-# Создание персонажа
+# Character Creation
 
 @dp.message(F.text == "🧙 Create Character")
 async def create_character(
@@ -155,7 +155,7 @@ async def get_items(
     )
 
 
-# Просмотр персонажа
+# View Character
 
 @dp.message(F.text == "📜 My Character")
 async def show_character(message: Message):
